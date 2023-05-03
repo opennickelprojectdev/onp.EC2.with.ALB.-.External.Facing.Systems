@@ -13,10 +13,10 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 metadata:
-  organisation-id: onp
+  organisation-id: cba
   pattern-categories:
   - Network
-  pattern-description: ALB for external facing workloads
-  pattern-id: "onp.EC2.with.ALB.\u2013.External.Facing.Systems"
-  pattern-name: "EC2 with ALB \u2013 External Facing Systems"
+  pattern-description: ALB for Internet Facing Web Tier
+  pattern-id: "cba.EC2.ALB.EFSystems.ALB"
+  pattern-name: "EC2 with ALB External Facing Systems"
   pattern-version: 1.0.0
