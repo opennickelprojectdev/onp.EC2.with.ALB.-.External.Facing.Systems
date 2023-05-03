@@ -23,4 +23,4 @@ This is a sample blueprint to use ALB inside CBA for External Facing Web Tiers
 
 | Variable               | Source                                         | Value |
 | -----------------------| --------------------------------------------- | ------|
-| Var1                   | SSM Parameter | cba/network/efalb|
+| ALB ARN                   | SSM Parameter | cba/network/efalbname|
