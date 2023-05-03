@@ -1,29 +1,22 @@
-metadata:
-  pattern-id: onp.base.template
-  pattern-name: base-template
-  organisation-id: onp
-  pattern-version: 1.0.0
-  pattern-description: some description here
-  pattern-categories: 
-              - bootstrap
-
+dependencies: null
 lifecycle:
   create:
     commands:
-      - bash lifecycle/create.sh
-
+    - bash lifecycle/create.sh
   delete:
     commands:
-      - bash lifecycle/delete.sh
-
+    - bash lifecycle/delete.sh
   update:
     commands:
-      - bash lifecycle/update.sh
-
+    - bash lifecycle/update.sh
   upgrade:
     commands:
-      - bash lifecycle/upgrade.sh
-
-dependencies:
-
-
+    - bash lifecycle/upgrade.sh
+metadata:
+  organisation-id: cba
+  pattern-categories:
+  - Network
+  pattern-description: ALB for Internet Facing Web Tier
+  pattern-id: "cba.EC2.ALB.EFSystems.ALB"
+  pattern-name: "EC2 with ALB External Facing Systems"
+  pattern-version: 1.0.0
